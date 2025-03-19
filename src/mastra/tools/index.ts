@@ -1,4 +1,4 @@
 // tools ディレクトリのインポート/エクスポート
-export * from "./searchTools";
+export * from "./braveSearchTools";
 export * from "./dataAnalysisTools";
 export * from "./weatherTool";
