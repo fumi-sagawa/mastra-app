@@ -1,7 +1,7 @@
 import { Step } from "@mastra/core/workflows";
 import { z } from "zod";
-import { weatherAgent } from "../agents/weather-agent";
-import { forecastSchema } from "./fetch-weather";
+import { weatherAgent } from "../agents/weatherAgent";
+import { forecastSchema } from "./fetchWeather";
 
 export const planActivities = new Step({
   id: "plan-activities",

@@ -1,7 +1,7 @@
 import { Workflow } from "@mastra/core/workflows";
 import { z } from "zod";
-import { fetchWeather } from "./steps/fetch-weather";
-import { planActivities } from "./steps/plan-activities";
+import { fetchWeather } from "./steps/fetchWeather";
+import { planActivities } from "./steps/planActivities";
 
 const weatherWorkflow = new Workflow({
   name: "weather-workflow",

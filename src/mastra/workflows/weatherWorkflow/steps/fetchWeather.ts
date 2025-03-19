@@ -1,6 +1,6 @@
 import { Step } from "@mastra/core/workflows";
 import { z } from "zod";
-import { getWeatherCondition } from "../tools/weather-conditions";
+import { getWeatherCondition } from "../tools/weatherConditions";
 
 export const forecastSchema = z.array(
   z.object({
